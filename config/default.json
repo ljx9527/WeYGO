@@ -1,0 +1,36 @@
+{
+  "app": {
+    "window_title": "",
+    "base_width": 627,
+    "base_height": 1114,
+    "viewport": null,
+    "require_target_region_for_execute": true,
+    "dry_run": true,
+    "action_delay_seconds": 0.8,
+    "state_delay_seconds": 1.5,
+    "max_failures": 3
+  },
+  "safety": {
+    "enable_pyautogui_failsafe": true,
+    "stop_file": "STOP_WEYGO"
+  },
+  "points": {
+    "home_npc_primary": [0.935, 0.508],
+    "home_npc_secondary": [0.935, 0.590],
+    "dialog_next": [0.940, 0.948],
+    "auto_duel": [0.755, 0.868],
+    "manual_duel": [0.260, 0.868],
+    "confirm": [0.500, 0.565],
+    "back": [0.080, 0.962],
+    "world": [0.500, 0.872]
+  },
+  "tasks": {
+    "npc_auto_duel": {
+      "npc_point": "home_npc_primary",
+      "dialog_taps": 2,
+      "prefer_auto_duel": true,
+      "confirm_before_start": true,
+      "post_start_wait_seconds": 8
+    }
+  }
+}

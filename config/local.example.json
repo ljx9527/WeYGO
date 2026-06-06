@@ -1,0 +1,16 @@
+{
+  "app": {
+    "window_title": "Yu-Gi-Oh",
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "width": 627,
+      "height": 1114
+    }
+  },
+  "tasks": {
+    "npc_auto_duel": {
+      "npc_point": "home_npc_primary"
+    }
+  }
+}
