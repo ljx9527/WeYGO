@@ -20,6 +20,19 @@ python -m pip install -r requirements.txt
 python -m src.weygo.main npc-auto-duel
 ```
 
+### 窗口模式
+
+```powershell
+python -m src.weygo.gui
+```
+
+窗口里可以：
+
+- 点击“手动选中游戏窗口”，然后在 3 秒内切到/点击游戏窗口。
+- 点击“开始”运行 NPC 自动决斗。
+- 点击“停止”请求任务在下一步前停止。
+- 取消“实际点击执行”后，只做 dry-run。
+
 ### 实际执行
 
 先把游戏窗口放到前台，并停在主界面或 NPC 对话流程附近，然后运行：
