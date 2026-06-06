@@ -8,6 +8,9 @@ build/
 # Logs
 *.log
 
+# Local screenshots and scratch files
+temp/
+
 # System files
 .DS_Store
 Thumbs.db
